@@ -8,7 +8,7 @@ const Private = () => {
   useEffect(() => {
     const token = sessionStorage.getItem("jwt-token");
     if (!token) {
-      navigate("/login");
+      navigate("https://bug-free-spoon-pjjwxjgxj5rq27wxp-3001.app.github.dev/login");
       return;
     }
 
@@ -35,7 +35,7 @@ const Private = () => {
   }, [navigate]);
 
   if (!user) {
-    return <div>Loding </div>;
+    return <div>CARGANDO... </div>;
   }
 
   return (

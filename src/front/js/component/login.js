@@ -9,7 +9,7 @@ const navigate = useNavigate();
 
 const handleLogin = () => {
     let RespSucess = false;
-    fetch("/login",
+    fetch("https://bug-free-spoon-pjjwxjgxj5rq27wxp-3001.app.github.dev/login",
     {
         method: 'POST',
         body: JSON.stringify({

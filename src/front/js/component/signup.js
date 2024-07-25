@@ -9,7 +9,7 @@ const Signup = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     fetch(
-      "/signup",
+      "https://bug-free-spoon-pjjwxjgxj5rq27wxp-3001.app.github.dev/signup",
       {
         method: "POST",
         headers: { "Content-type": "application/json" },
